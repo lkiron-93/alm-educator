@@ -1,0 +1,30 @@
+# ALM Educator Requirements
+# Core Streamlit and Data Science Libraries
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization Libraries
+plotly>=5.15.0
+
+# HTTP Requests for Market Data
+requests>=2.31.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Excel File Processing
+xlsxwriter>=3.1.0
+
+# Optional: Advanced Quantitative Finance
+# Note: QuantLib commented out for Streamlit Cloud compatibility
+# Uncomment the line below if deploying to a server with QuantLib support
+# QuantLib-Python>=1.31
+
+# Installation Notes:
+# 1. QuantLib is optional - app works with simplified calculations if not available
+# 2. For local development with QuantLib:
+#    - Windows: pip install QuantLib-Python
+#    - Mac: brew install quantlib && pip install QuantLib-Python
+#    - Linux: sudo apt-get install libquantlib0-dev && pip install QuantLib-Python
+# 3. Streamlit Cloud deployment works without QuantLib
