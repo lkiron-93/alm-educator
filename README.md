@@ -88,9 +88,7 @@ pip install QuantLib-Python
 streamlit run irr_educate.py
 ```
 
-5. **Access the platform:**
-   - Open your browser to `http://localhost:8501`
-   - Enter password: `almeducate2025!`
+
 
 ## 🎯 Educational Objectives
 
